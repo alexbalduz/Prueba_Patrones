@@ -2,7 +2,7 @@ from base import Base
 
 class BaseCompuesta(Base):
 
-    def __init__(self, nombre: str, bases: list[Base]):
+    def __init__(self, nombre: str, bases: list):
         self.nombre = nombre
         self.bases = bases
 
