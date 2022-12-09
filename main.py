@@ -1,4 +1,4 @@
-from lanzador import lanzar
+import lanzador
 
-if __name__=='__main__':
-    lanzar()
+if __name__=="__main__":
+    lanzador.lanzar()

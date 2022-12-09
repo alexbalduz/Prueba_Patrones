@@ -1,6 +1,6 @@
-from Ejercicio_1.base import Base
 from Ejercicio_1.base_compuesta import BaseCompuesta
 from Ejercicio_1.base_simple import BaseSimple
+from Ejercicio_1.base import Base
 from Ejercicio_2.sujeto import SujetoConcreto
 from Ejercicio_2.observador import Elemento
 import helpers
