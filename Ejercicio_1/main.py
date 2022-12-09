@@ -1,6 +1,6 @@
-from Ejercicio_1.base import Base
-from Ejercicio_1.base_compuesta import BaseCompuesta
-from Ejercicio_1.base_simple import BaseSimple
+from base import Base
+from base_compuesta import BaseCompuesta
+from base_simple import BaseSimple
 
 def main():
     base_1 = BaseSimple("Base 1", 5, 10)

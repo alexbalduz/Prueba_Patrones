@@ -1,5 +1,5 @@
-from Ejercicio_2.sujeto import SujetoConcreto
-from Ejercicio_2.observador import Elemento
+from sujeto import SujetoConcreto
+from observador import Elemento
 
 def main():
     # Creamos una instancia de la clase Sujeto, que representa al sistema
@@ -20,5 +20,5 @@ def main():
     # Notificamos a los elementos para que se actualicen
     sistema.notificar()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
